@@ -108,13 +108,13 @@ namespace KomodoClaims.UI
 
         private void AddNewClaim()
         {
-            int claimid;
+            int claimid = 0;
             string type;
             string desc;
             string amount;
             string doa;
             string doc;
-            bool valid;
+            bool valid = false;
 
             bool numberNeed = true;
             while (numberNeed)
@@ -135,7 +135,47 @@ namespace KomodoClaims.UI
                 }
             }
 
+            Console.WriteLine("Enter the claim type: ");
+            type = Console.ReadLine();
 
+            Console.WriteLine("Enter the description: ");
+            desc = Console.ReadLine();
+
+            Console.WriteLine("Enter the amount: ");
+            amount = Console.ReadLine();
+
+            Console.WriteLine("Enter the date of accident: ");
+            doa = Console.ReadLine();
+
+            Console.WriteLine("Enter the date of claim: ");
+            doc = Console.ReadLine();
+
+            bool needValid = true;
+            while (needValid)
+            {
+                Console.WriteLine("The vlaim is valid? (t/f)");
+                string input = Console.ReadLine();
+                switch (input)
+                {
+                    case "t":
+                        valid = true;
+                        needValid = false;
+                        break;
+                    case "f":
+                        valid = false;
+                        needValid = false;
+                        break;
+                    default:
+                        Console.WriteLine("please tyoe t or f");
+                        break;
+                }
+            }
+
+            Claim newClaim = new Claim(claimid, type, desc, amount, doa, doc, valid);
+            _claimRepo.AddContentToDirectory(newClaim);
+
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
     }
 }
