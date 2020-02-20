@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2C5F1674-BD00-45A0-95A9-F79474EC8924}</ProjectGuid>
+    <ProjectGuid>{01921162-BC76-4A09-BC3D-F6393CAAD2CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01_KomodoClaimsTests</RootNamespace>
-    <AssemblyName>01_KomodoClaimsTests</AssemblyName>
+    <RootNamespace>_02_BadgesTests</RootNamespace>
+    <AssemblyName>02_BadgesTests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,16 +49,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RepoTesting.cs" />
+    <Compile Include="RepoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\01_KomodoClaimsRepo\01_KomodoClaimsClasses.csproj">
-      <Project>{4A7F8682-A8F6-43B0-B18A-E30384892530}</Project>
-      <Name>01_KomodoClaimsClasses</Name>
+    <ProjectReference Include="..\02_BadgesClasses\03_BadgesClasses.csproj">
+      <Project>{BDFF4D63-1350-4791-926A-6D9C6F387EEA}</Project>
+      <Name>03_BadgesClasses</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_KomodoClaims", "KomodoClaims\01_KomodoClaims.csproj", "{31B41940-7BC8-43D5-B3A0-72141F2ECBE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_KomodoClaims", "KomodoClaims\02_KomodoClaims.csproj", "{31B41940-7BC8-43D5-B3A0-72141F2ECBE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_KomodoClaimsClasses", "01_KomodoClaimsRepo\01_KomodoClaimsClasses.csproj", "{4A7F8682-A8F6-43B0-B18A-E30384892530}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_KomodoClaimsClasses", "01_KomodoClaimsRepo\02_KomodoClaimsClasses.csproj", "{4A7F8682-A8F6-43B0-B18A-E30384892530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_KomodoClaimsTests", "01_KomodoClaimsTests\01_KomodoClaimsTests.csproj", "{2C5F1674-BD00-45A0-95A9-F79474EC8924}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_KomodoClaimsTests", "01_KomodoClaimsTests\02_KomodoClaimsTests.csproj", "{2C5F1674-BD00-45A0-95A9-F79474EC8924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BadgesUI", "02_BadgesUI\03_BadgesUI.csproj", "{E9844495-F96C-414A-912E-EDD1AD931353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BadgesClasses", "02_BadgesClasses\03_BadgesClasses.csproj", "{BDFF4D63-1350-4791-926A-6D9C6F387EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BadgesTests", "02_BadgesTests\03_BadgesTests.csproj", "{01921162-BC76-4A09-BC3D-F6393CAAD2CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{2C5F1674-BD00-45A0-95A9-F79474EC8924}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C5F1674-BD00-45A0-95A9-F79474EC8924}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C5F1674-BD00-45A0-95A9-F79474EC8924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9844495-F96C-414A-912E-EDD1AD931353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9844495-F96C-414A-912E-EDD1AD931353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9844495-F96C-414A-912E-EDD1AD931353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9844495-F96C-414A-912E-EDD1AD931353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFF4D63-1350-4791-926A-6D9C6F387EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFF4D63-1350-4791-926A-6D9C6F387EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFF4D63-1350-4791-926A-6D9C6F387EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFF4D63-1350-4791-926A-6D9C6F387EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01921162-BC76-4A09-BC3D-F6393CAAD2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01921162-BC76-4A09-BC3D-F6393CAAD2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01921162-BC76-4A09-BC3D-F6393CAAD2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01921162-BC76-4A09-BC3D-F6393CAAD2CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
